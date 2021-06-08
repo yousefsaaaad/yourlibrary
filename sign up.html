@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+<link rel="icon" href="images/kyoto-metro-logo.png" type="image/x-icon">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style> 
+
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+   
+} 
+
+
+.container {  
+    padding: 20px 450px; 
+	
+    
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 20px 0 10px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ 
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;
+  padding: 16px 232px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body background="images/pexels-anete-lusina-5239564 (5).jpg"> >
+<form>  
+  <div class="container">  
+  <center>  <h1>JOIN US </h1> </center>  
+  <hr>  
+  <label><b> Firstname </b></label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />      
+<label><b> Lastname</b> </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+  
+
+
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+ 
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+	
+	<b>Gender :  </b>
+	
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other 
+
+	
+	
+ <center> <button type="submit" class="registerbtn">Register</button> </center>
+</form>  
+</body>  
+</html>
